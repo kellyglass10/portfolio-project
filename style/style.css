@@ -1,3 +1,40 @@
+:root {
+  --primary-pink: #fce7ef;
+  --secondary-pink: #ffb9d6;
+  --third-pink: #fcc4db;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+.header {
+  background-color: var(--primary-pink);
+  text-align: center;
+  padding: 115px 15px;
+}
+
+.header p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header h2 {
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 2;
+}
+
+.btn-header {
+  background: var(--third-pink);
+  border-color: var(--secondary-pink);
+  border-width: 4px;
+  color: white;
+  line-height: 25px;
+  padding: 15px 20px;
 }
