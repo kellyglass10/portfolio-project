@@ -2,6 +2,7 @@
   --primary-pink: #fce7ef;
   --secondary-pink: #ffb9d6;
   --third-pink: #fcc4db;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -10,6 +11,14 @@ body {
 
 h1 {
   font-size: 96px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.navbar-bg {
+  background-color: var(--primary-pink);
 }
 
 .header {
@@ -37,4 +46,34 @@ h1 {
   color: white;
   line-height: 25px;
   padding: 15px 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.home-grid {
+  padding: 100px 50px;
+}
+
+.btn-home {
+  background: var(--primary-pink);
+  border-color: var(--secondary-pink);
+  border-width: 4px;
+  color: black;
+  line-height: 25px;
+  padding: 15px 40px;
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .header h2 {
+    font-size: 15px;
+  }
+
+  .btn-header,
+  .btn-home {
+    padding: 5px 10px;
+  }
 }
