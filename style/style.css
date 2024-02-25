@@ -63,6 +63,11 @@ h6 {
   box-shadow: var(--box-shadow);
 }
 
+.about-selfie,
+.about-dogs {
+  max-width: 65%;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -75,5 +80,9 @@ h6 {
   .btn-header,
   .btn-home {
     padding: 5px 10px;
+  }
+
+  .about-section {
+    margin: auto;
   }
 }
